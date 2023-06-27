@@ -150,3 +150,101 @@ header {
     left: 40%;
     transform: rotateY(180deg);
 }
+
+.lamer2 img:nth-child(5){
+    top: 1750px;
+    right: 20%;
+    transform: rotateY(180deg);
+}
+
+
+.lamer2 img:nth-child(6){
+    top: 1500px;
+    right: 5%;
+}
+
+
+.lamer2 img:nth-child(7){
+  top: 950px;
+  right: 4%;
+  width: 18%;
+}
+
+.lamer2 img:nth-child(8){
+  top: 1100px;
+  right: 25%;
+  width: 15%;
+  transform: rotateY(180deg);
+}
+
+.lamer2 img:nth-child(9){
+  top: 1250px;
+  right: 4%;
+  width: 13%;
+}
+
+.lamer2 img:nth-child(10){
+  top: 1510px;
+  left: 2%;
+  width: 22%;
+}
+
+.lamer2 img:nth-child(11){
+  top: 1550px;
+  right: 30%;
+  width: 5%;
+  transform: rotateY(180deg);
+}
+
+.lamer2 img:nth-child(12){
+  top: 1750px;
+  left: 15%;
+  width: 18%;
+}
+
+.lamer2 img:nth-child(13){
+  top: 1850px;
+  left: 10%;
+  width: 15%;
+  transform: rotateY(180deg);
+}
+
+.lamer2 img:nth-child(14){
+  top: 1900px;
+  left: 23%;
+  width: 13%;
+}
+
+
+.lamer2 img:nth-child(15){
+  top: 2050px;
+  left: 26%;
+  width: 11%;
+}
+
+.lamer2 img:nth-child(16){
+  top: 2050px;
+  left: 16%;
+  width: 9%;
+  transform: rotateY(180deg);
+}
+
+.lamer2 img:nth-child(17){
+  top: 2050px;
+  left: 21%;
+  width: 8%;
+}
+
+.lamer2 img:nth-child(18){
+  top: 2100px;
+  left: 10%;
+  width: 8%;
+  transform: rotateY(180deg);
+}
+
+.lamer2 img:nth-child(19){
+  top: 2225px;
+  left: 21%;
+  width: 5%;
+  transform: rotateY(180deg);
+}
