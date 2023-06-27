@@ -83,7 +83,7 @@ body {
 }
 .lamer{
      position: relative;
-
+}
 .lamer {
   position: relative;
 
@@ -132,13 +132,13 @@ header {
   width: 20%;
 }
 
-.lamer img:nth-child(3) {
+.lamer img:nth-of-type(3) {
 
   top: 312px;
   right: 35%;
 }
 
-.lamer img:nth-child(4) {
+.lamer img:nth-of-type(4) {
 
   top: 171px;
   transform: rotateY(180deg);
@@ -150,19 +150,19 @@ header {
   width: 26%;
 }
 
-.lamer img:nth-child(5) {
+.lamer img:nth-of-type(5) {
   left: 7%;
   transform: rotateY(180deg);
   top: 516px;
 }
 
 
-.lamer img:nth-child(6) {
+.lamer img:nth-of-type(6) {
   right: 6%;
   top: 650px;
 }
 
-.lamer img:nth-child(7) {
+.lamer img:nth-of-type(7) {
   right: 25%;
   top: 813px;
 }
@@ -176,121 +176,119 @@ header {
   width: 12%
 }
 
-.lamer2 img:nth-child(2) {
+.lamer2 img:nth-of-type(2) {
         top: 400px;
         left: 35%;
     }
 
-.lamer2 img:nth-child(3){
+.lamer2 img:nth-of-type(3){
     top: 450px;
     left: 50%;
 }
 
-.lamer2 img:nth-child(4){
+.lamer2 img:nth-of-type(4){
     top: 510px;
     left: 40%;
     transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(5){
+.lamer2 img:nth-of-type(5){
     top: 800px;
     right: 20%;
     transform: rotateY(180deg);
 }
 
 
-.lamer2 img:nth-child(6){
+.lamer2 img:nth-of-type(6){
     top: 550px;
     right: 5%;
 }
 
 
-.lamer2 img:nth-child(7){
+.lamer2 img:nth-of-type(7){
   top: 0px;
   right: 4%;
   width: 18%;
 }
 
-.lamer2 img:nth-child(8){
+.lamer2 img:nth-of-type(8){
   top: 150px;
   right: 25%;
   width: 15%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(9){
+.lamer2 img:nth-of-type(9){
   top: 300px;
   right: 4%;
   width: 13%;
 }
 
-.lamer2 img:nth-child(10){
+.lamer2 img:nth-of-type(10){
   top: 560px;
   left: 2%;
   width: 22%;
 }
 
-.lamer2 img:nth-child(11){
+.lamer2 img:nth-of-type(11){
   top: 600px;
   right: 30%;
   width: 5%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(12){
+.lamer2 img:nth-of-type(12){
   top: 800px;
   left: 15%;
   width: 18%;
 }
 
-.lamer2 img:nth-child(13){
+.lamer2 img:nth-of-type(13){
   top: 900px;
   left: 10%;
   width: 15%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(14){
+.lamer2 img:nth-of-type(14){
   top: 950px;
   left: 23%;
   width: 13%;
 }
 
 
-.lamer2 img:nth-child(15){
+.lamer2 img:nth-of-type(15){
   top: 1100px;
   left: 26%;
   width: 11%;
 }
 
-.lamer2 img:nth-child(16){
+.lamer2 img:nth-of-type(16){
   top: 1100px;
   left: 16%;
   width: 9%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(17){
+.lamer2 img:nth-of-type(17){
   top: 1100px;
   left: 21%;
   width: 8%;
 }
 
-.lamer2 img:nth-child(18){
+.lamer2 img:nth-of-type(18){
   top: 1150px;
   left: 10%;
   width: 8%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-child(19){
+.lamer2 img:nth-of-type(19){
   top: 1275px;
   left: 21%;
   width: 5%;
   transform: rotateY(180deg);
 }
-
-
 
 .mozob {
   top: 74px;
@@ -335,16 +333,28 @@ header {
   width: 50%;
 }
 
-.frost{
-  top: 100px;
-  left: 5%;
-  width: 30%;
+.rocherfrost {
+  top: 190px;
+  width: 43%;
+  transform: rotate(317deg);
+  left: -12%;
 }
 
+.frost {
+  top: 20px;
+  left: 2%;
+  width: 25%;
+}
 
-.crab{
-  top: 120px;
-  right: 5%;
+.rochercrab {
+  top: 190px;
+  right: -16%;
+  transform: rotate(-19deg);
+  width: 35%;
+}
+.crab {
+  top: 260px;
+  right: -5%;
   width: 25%;
   transform: rotateY(180deg);
 }
