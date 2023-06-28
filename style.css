@@ -7,7 +7,7 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
   cursor: url("images/yellowsubmarine.png"), auto;
-  
+
 }
 
 .ocean {
@@ -17,7 +17,7 @@ body {
   top: 293px;
   left: 0;
   background: #015871;
- 
+
 }
 
 .wave {
@@ -112,19 +112,20 @@ body {
   position: relative;
   top: 4700px;
 }
-.lamer5{
+
+.lamer5 {
   position: relative;
   top: 8100px;
 }
 
-.cthulhu{
+.cthulhu {
   position: relative;
   top: 11500px
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -144,7 +145,7 @@ header {
   width: 30%;
 }
 
-.bancbulle{ 
+.bancbulle {
   width: 11%;
   right: 22%;
   top: -88px;
@@ -163,7 +164,7 @@ header {
   right: 35%;
 }
 
-.bullerequin1{
+.bullerequin1 {
   width: 9%;
   top: 97px;
   left: 10%;
@@ -195,7 +196,7 @@ header {
   top: 516px;
 }
 
-.bullegoblin1{
+.bullegoblin1 {
   width: 9%;
   top: 472px;
   left: 22%;
@@ -242,16 +243,16 @@ header {
 }
 
 
-.eel1{
+.eel1 {
   width: 12%;
   top: 400px;
   left: 35%;
 }
 
-.bulleeel1{
+.bulleeel1 {
   width: 9%;
-  top:367px;
-  left:35%; 
+  top: 367px;
+  left: 35%;
   transform: rotateY(180deg);
 }
 
@@ -261,12 +262,13 @@ header {
   left: 50%;
 }
 
-.bulleeel2{
+.bulleeel2 {
   width: 9%;
-  top:417px;
-  left:50%; 
+  top: 417px;
+  left: 50%;
   transform: rotateY(180deg);
 }
+
 .eel3 {
   width: 12%;
   top: 510px;
@@ -274,10 +276,10 @@ header {
   transform: rotateY(180deg);
 }
 
-.bulleeel3{
-width: 9%;
-top:477px;
-left:43%; 
+.bulleeel3 {
+  width: 9%;
+  top: 477px;
+  left: 43%;
 }
 
 .eel4 {
@@ -287,11 +289,11 @@ left:43%;
   transform: rotateY(180deg);
 }
 
-.bulleeel4{
+.bulleeel4 {
   width: 9%;
-  top:767px;
-  right: 20%; 
-  }
+  top: 767px;
+  right: 20%;
+}
 
 .eel5 {
   width: 12%;
@@ -299,10 +301,10 @@ left:43%;
   right: 5%;
 }
 
-.bulleeel5{
+.bulleeel5 {
   width: 9%;
-  top:517px;
-  right:9%; 
+  top: 517px;
+  right: 9%;
   transform: rotateY(180deg);
 }
 
@@ -313,10 +315,10 @@ left:43%;
   width: 18%;
 }
 
-.bullefugu1{
+.bullefugu1 {
   width: 9%;
-  top:-10px;
-  right:4%; 
+  top: -10px;
+  right: 4%;
   transform: rotateY(180deg);
 }
 
@@ -481,6 +483,7 @@ left:43%;
   right: -6%;
   width: 50%;
 }
+
 .octopus {
   top: 1971px;
   right: -4%;
@@ -505,34 +508,34 @@ left:43%;
   right: -20%;
 }
 
-.rocherstremon{
-    top: 281px;
-    rotate: -41deg;
-    left: -19%;
-    width: 54%;
+.rocherstremon {
+  top: 281px;
+  rotate: -41deg;
+  left: -19%;
+  width: 54%;
 }
 
-.stremon{    
+.stremon {
   transform: rotateY(180deg);
   width: 64%;
   left: -27%;
   top: -91px;
 }
 
-.seadramon{
-    width: 72%;
-    top: 1092px;
+.seadramon {
+  width: 72%;
+  top: 1092px;
 }
 
-.pascool{
-    top: 1299px;
-    right: 41%;
+.pascool {
+  top: 1299px;
+  right: 41%;
 }
 
-.kaiju{
+.kaiju {
   top: 1854px;
-    width: 110%;
-    left: -40%;
+  width: 110%;
+  left: -40%;
 }
 
 .pet {
