@@ -58,21 +58,19 @@ body {
 /*Ca c'était les vagues*/
 
 .dialogue {
-  width: 200px;
-  position: absolute;
+  width: 100%;
+  position: fixed;
   height: 200px;
-  background-color: black;
+  background-color: #05001f;
   color: white;
-  text-align: center;
+  justify-content: center;
   display: flex;
   align-items: center;
-  top: 100px;
-  left: 623px;
-  border-radius: 100PX;
+  bottom: 0;
   opacity: 0;
+  z-index: 5;
+  font-size: 30px;
 }
-
-.moza {}
 
 .desactive {
   opacity: 0;
@@ -80,6 +78,7 @@ body {
 
 .active {
   opacity: 1;
+  overflow: hidden;
 }
 
 .locean {
