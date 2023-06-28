@@ -7,6 +7,7 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
   cursor: url("images/yellowsubmarine.png"), auto;
+  
 }
 
 .ocean {
@@ -16,6 +17,7 @@ body {
   top: 293px;
   left: 0;
   background: #015871;
+ 
 }
 
 .wave {
@@ -73,8 +75,6 @@ body {
   opacity: 0;
 }
 
-.moza {}
-
 .desactive {
   opacity: 0;
 }
@@ -86,7 +86,6 @@ body {
 .locean {
   height: 13000px;
   background-color: #015871;
-
 }
 
 .lamer {
@@ -144,6 +143,12 @@ header {
   width: 30%;
 }
 
+.bancbulle{ 
+  width: 11%;
+  right: 22%;
+  top: -88px;
+}
+
 .seahorse {
 
   right: 5%;
@@ -157,12 +162,26 @@ header {
   right: 35%;
 }
 
+.bancrequin1{
+  width: 9%;
+  top: 97px;
+  left: 10%;
+}
+
+
+
 .lamer img:nth-of-type(4) {
 
   top: 171px;
   transform: rotateY(180deg);
   left: 5%;
 
+}
+
+.bancrequin2{
+  width: 9%;
+  top: 97px;
+  left: 10%;
 }
 
 .goblin {
