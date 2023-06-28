@@ -157,13 +157,13 @@ header {
   width: 20%;
 }
 
-.lamer img:nth-of-type(3) {
+.requin1 {
 
   top: 312px;
   right: 35%;
 }
 
-.bancrequin1{
+.bullerequin1{
   width: 9%;
   top: 97px;
   left: 10%;
@@ -171,7 +171,7 @@ header {
 
 
 
-.lamer img:nth-of-type(4) {
+.requin2 {
 
   top: 171px;
   transform: rotateY(180deg);
@@ -179,151 +179,220 @@ header {
 
 }
 
-.bancrequin2{
+.bullerequin2 {
   width: 9%;
-  top: 97px;
-  left: 10%;
+  top: 245px;
+  right: 39%;
+  transform: rotateY(180deg);
 }
 
-.goblin {
+
+
+.goblin1 {
   width: 26%;
-}
-
-.lamer img:nth-of-type(5) {
   left: 7%;
   transform: rotateY(180deg);
   top: 516px;
 }
 
+.bullegoblin1{
+  width: 9%;
+  top: 472px;
+  left: 22%;
+}
 
-.lamer img:nth-of-type(6) {
+
+.goblin2 {
+  width: 26%;
   right: 6%;
   top: 650px;
 }
 
-.lamer img:nth-of-type(7) {
+.bullegoblin2 {
+  width: 9%;
+  top: 605px;
+  right: 22%;
+  transform: rotateY(180deg);
+}
+
+.goblin3 {
+  width: 26%;
   right: 25%;
   top: 813px;
 }
 
+.bullegoblin3 {
+  width: 9%;
+  top: 769px;
+  right: 41%;
+  transform: rotateY(180deg);
+}
+
 .mosa {
+  z-index: 5;
   width: 40%;
   top: 45px;
   left: 5%;
 }
 
-.eel {
-  width: 12%
+.bullemosa {
+  top: 21px;
+  left: 30%;
+  width: 15%;
 }
 
-.lamer2 img:nth-of-type(2) {
+
+.eel1{
+  width: 12%;
   top: 400px;
   left: 35%;
 }
 
-.lamer2 img:nth-of-type(3) {
+.bulleeel1{
+  width: 9%;
+  top:367px;
+  left:35%; 
+  transform: rotateY(180deg);
+}
+
+.eel2 {
+  width: 12%;
   top: 450px;
   left: 50%;
 }
 
-.lamer2 img:nth-of-type(4) {
+.bulleeel2{
+  width: 9%;
+  top:417px;
+  left:50%; 
+  transform: rotateY(180deg);
+}
+.eel3 {
+  width: 12%;
   top: 510px;
   left: 40%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(5) {
+.bulleeel3{
+width: 9%;
+top:477px;
+left:43%; 
+}
+
+.eel4 {
+  width: 12%;
   top: 800px;
   right: 20%;
   transform: rotateY(180deg);
 }
 
+.bulleeel4{
+  width: 9%;
+  top:767px;
+  right: 20%; 
+  }
 
-.lamer2 img:nth-of-type(6) {
+.eel5 {
+  width: 12%;
   top: 550px;
   right: 5%;
 }
 
+.bulleeel5{
+  width: 9%;
+  top:517px;
+  right:9%; 
+  transform: rotateY(180deg);
+}
 
-.lamer2 img:nth-of-type(7) {
+
+.fugu1 {
   top: 0px;
   right: 4%;
   width: 18%;
 }
 
-.lamer2 img:nth-of-type(8) {
+.bullefugu1{
+  width: 9%;
+  top:-10px;
+  right:4%; 
+  transform: rotateY(180deg);
+}
+
+.fugu2 {
   top: 150px;
   right: 25%;
   width: 15%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(9) {
+.fugu3 {
   top: 300px;
   right: 4%;
   width: 13%;
 }
 
-.lamer2 img:nth-of-type(10) {
+.fugu4 {
   top: 560px;
   left: 2%;
   width: 22%;
 }
 
-.lamer2 img:nth-of-type(11) {
+.fugu5 {
   top: 600px;
   right: 30%;
   width: 5%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(12) {
+.jelly1 {
   top: 800px;
   left: 15%;
   width: 18%;
 }
 
-.lamer2 img:nth-of-type(13) {
+.jelly2 {
   top: 900px;
   left: 10%;
   width: 15%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(14) {
+.jelly3 {
   top: 950px;
   left: 23%;
   width: 13%;
 }
 
 
-.lamer2 img:nth-of-type(15) {
+.jelly4 {
   top: 1100px;
   left: 26%;
   width: 11%;
 }
 
-.lamer2 img:nth-of-type(16) {
+.jelly5 {
   top: 1100px;
   left: 16%;
   width: 9%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(17) {
+.jelly6 {
   top: 1100px;
   left: 21%;
   width: 8%;
 }
 
-.lamer2 img:nth-of-type(18) {
+.jelly7 {
   top: 1150px;
   left: 10%;
   width: 8%;
   transform: rotateY(180deg);
 }
 
-.lamer2 img:nth-of-type(19) {
+.jelly8 {
   top: 1275px;
   left: 21%;
   width: 5%;
