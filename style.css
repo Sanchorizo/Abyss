@@ -6,6 +6,7 @@ body {
 body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
+  cursor: url("images/yellowsubmarine.png"), auto;
 }
 
 .ocean {
@@ -101,6 +102,16 @@ body {
 .lamer4{
   position: relative;
   top: 4700px;
+}
+
+.lamer5{
+  position: relative;
+  top: 8100px;
+}
+
+.cthulhu{
+  position: relative;
+  top: 11500px
 }
 
 *{
@@ -356,5 +367,78 @@ header {
   top: 260px;
   right: -5%;
   width: 25%;
+  transform: rotateY(180deg);
+}
+
+.badeel {
+  top: 769px;
+  left: -5%;
+  width: 70%;
+  transform: rotateY(180deg);
+}
+
+.nonoeil {
+  top: 1049px;
+  right: -6%;
+  width: 50%;
+}
+.octopus {
+  top: 1971px;
+  right: -4%;
+  width: 70%;
+}
+
+.poulpe {
+  top: 2633px;
+  left: 5%;
+  width: 60%;
+}
+
+.greg {
+  top: 2700px;
+  right: -10%;
+  width: 30%;
+}
+
+.metroid {
+  top: 0;
+  width: 85%;
+  right: -20%;
+}
+
+.rocherstremon{
+    top: 281px;
+    rotate: -41deg;
+    left: -19%;
+    width: 54%;
+}
+
+.stremon{    
+  transform: rotateY(180deg);
+  width: 64%;
+  left: -27%;
+  top: -91px;
+}
+
+.seadramon{
+    width: 72%;
+    top: 1092px;
+}
+
+.pascool{
+    top: 1299px;
+    right: 41%;
+}
+
+.kaiju{
+  top: 1854px;
+    width: 110%;
+    left: -40%;
+}
+
+.pet {
+  top: 2326px;
+  width: 41%;
+  right: -3%;
   transform: rotateY(180deg);
 }
