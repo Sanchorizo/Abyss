@@ -85,8 +85,9 @@ body {
 }
 
 .locean {
-  height: 13000px;
-  background-color: #015871;
+  height: 13039px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,88,113,1) 100%); 
 }
 
 .lamer {
@@ -119,7 +120,7 @@ body {
 
 .cthulhu{
   position: relative;
-  top: 11500px
+  top: 12111px;
 }
 
 *{
@@ -138,13 +139,13 @@ header {
 }
 
 .banc {
-
   right: 12%;
   top: 37px;
   width: 30%;
 }
 
-.bancbulle{ 
+.bancbulle{
+  opacity: 50%; 
   width: 11%;
   right: 22%;
   top: -88px;
@@ -164,6 +165,7 @@ header {
 }
 
 .bullerequin1{
+  opacity: 50%;
   width: 9%;
   top: 97px;
   left: 10%;
@@ -172,7 +174,6 @@ header {
 
 
 .requin2 {
-
   top: 171px;
   transform: rotateY(180deg);
   left: 5%;
@@ -180,6 +181,7 @@ header {
 }
 
 .bullerequin2 {
+  opacity: 50%;
   width: 9%;
   top: 245px;
   right: 39%;
@@ -196,6 +198,7 @@ header {
 }
 
 .bullegoblin1{
+  opacity: 50%;
   width: 9%;
   top: 472px;
   left: 22%;
@@ -209,6 +212,7 @@ header {
 }
 
 .bullegoblin2 {
+  opacity: 50%;
   width: 9%;
   top: 605px;
   right: 22%;
@@ -222,6 +226,7 @@ header {
 }
 
 .bullegoblin3 {
+  opacity: 50%;
   width: 9%;
   top: 769px;
   right: 41%;
@@ -236,6 +241,7 @@ header {
 }
 
 .bullemosa {
+  opacity: 50%;
   top: 21px;
   left: 30%;
   width: 15%;
@@ -249,6 +255,7 @@ header {
 }
 
 .bulleeel1{
+  opacity: 50%;
   width: 9%;
   top:367px;
   left:35%; 
@@ -262,6 +269,7 @@ header {
 }
 
 .bulleeel2{
+  opacity: 50%;
   width: 9%;
   top:417px;
   left:50%; 
@@ -275,9 +283,10 @@ header {
 }
 
 .bulleeel3{
-width: 9%;
-top:477px;
-left:43%; 
+  opacity: 50%;
+  width: 9%;
+  top:477px;
+  left:43%; 
 }
 
 .eel4 {
@@ -288,6 +297,7 @@ left:43%;
 }
 
 .bulleeel4{
+  opacity: 50%;
   width: 9%;
   top:767px;
   right: 20%; 
@@ -300,6 +310,7 @@ left:43%;
 }
 
 .bulleeel5{
+  opacity: 50%;
   width: 9%;
   top:517px;
   right:9%; 
@@ -313,11 +324,11 @@ left:43%;
   width: 18%;
 }
 
-.bullefugu1{
-  width: 9%;
-  top:-10px;
-  right:4%; 
-  transform: rotateY(180deg);
+.bullefugu1 {
+  opacity: 50%;
+  width: 12%;
+  top: -106px;
+  right: 3%;
 }
 
 .fugu2 {
@@ -327,16 +338,38 @@ left:43%;
   transform: rotateY(180deg);
 }
 
+.bullefugu2 {
+  opacity: 50%;
+  width: 9%;
+  top: 83px;
+  right: 30%;
+  transform: rotateY(180deg);
+}
+
 .fugu3 {
   top: 300px;
   right: 4%;
   width: 13%;
 }
 
+.bullefugu3 {
+  opacity: 50%;
+  width: 7%;
+  top: 247px;
+  right: 5%;
+}
+
 .fugu4 {
   top: 560px;
   left: 2%;
   width: 22%;
+}
+
+.bullefugu4 {
+  opacity: 50%;
+  width: 16%;
+  top: 434px;
+  left: 10%;
 }
 
 .fugu5 {
@@ -352,11 +385,28 @@ left:43%;
   width: 18%;
 }
 
+.bullejelly1 {
+  opacity: 50%;
+  width: 14%;
+  transform: rotateX(180deg);
+  top: 1288px;
+  left: 11%;
+}
+
 .jelly2 {
   top: 900px;
   left: 10%;
   width: 15%;
   transform: rotateY(180deg);
+  
+}
+
+.bullejelly2 {
+  opacity: 50%;
+  width: 14%;
+  transform: rotateZ(180deg);
+  top: 1287px;
+  left: 22%;
 }
 
 .jelly3 {
@@ -397,12 +447,22 @@ left:43%;
   left: 21%;
   width: 5%;
   transform: rotateY(180deg);
+  z-index: 5;
 }
 
 .mozob {
   top: 74px;
   right: 5%;
   width: 30%;
+  z-index: 5;
+}
+
+.bullemozob {
+  opacity: 50%;
+  width: 14%;
+  transform: rotateY(180deg);
+  top: 18px;
+  right: 23%;
 }
 
 .mozocourbe {
@@ -411,16 +471,55 @@ left:43%;
   left: 25%;
 }
 
+.bullecourbe {
+  opacity: 50%;
+  width: 14%;
+  top: 381px;
+  right: 34%;
+}
+
+.rochercorail {
+  top: 737px;
+  width: 34%;
+  transform: rotate(317deg);
+  left: -12%;
+}
+
+.groscorail {
+  top: 573px;
+  width: 21%;
+  left: -3%;
+  transform: rotate(-6deg);
+}
+
 .baleineraciste {
-  top: 850px;
+  top: 1166px;
   left: 1%;
-  width: 70%;
+  width: 66%;
+}
+
+.bulleraciste {
+  opacity: 50%;
+  width: 14%;
+  top: 1009px;
+  left: 5%;
+  transform: rotateY(180deg);
 }
 
 .loupiote {
   top: 1200px;
   right: 10%;
   width: 25%;
+  z-index: 5;
+}
+
+.bulleloupiote {
+  opacity: 50%;
+  width: 14%;
+  top: 1257px;
+  right: 18%;
+  transform: rotateY(180deg);
+  z-index: 6;
 }
 
 .baleinecool {
@@ -430,16 +529,39 @@ left:43%;
   transform: rotateY(180deg);
 }
 
+.bullecool {
+  opacity: 50%;
+  width: 14%;
+  top: 1404px;
+  right: 17%;
+  z-index: 4;
+}
+
 .ampoule {
   top: 1450px;
   left: 10%;
   width: 20%;
 }
 
-.monstre {
-  top: 1900px;
-  right: 20%;
-  width: 50%;
+.bulleampoule {
+    opacity: 50%;
+    width: 13%;
+    top: 1434px;
+    left: 21%;
+  }
+
+  .monstre {
+    top: 1905px;
+    right: 18%;
+    width: 45%;
+  }
+
+.bullemonster {
+  opacity: 50%;
+  width: 14%;
+  top: 2156px;
+  left: 34%;
+  transform: rotateY(180deg);
 }
 
 .rocherfrost {
@@ -455,6 +577,13 @@ left:43%;
   width: 25%;
 }
 
+.bullefrost {
+    opacity: 50%;
+    width: 8%;
+    top: 103px;
+    left: 17%;
+  }
+
 .rochercrab {
   top: 190px;
   right: -16%;
@@ -469,17 +598,41 @@ left:43%;
   transform: rotateY(180deg);
 }
 
+.bullecrab {
+  opacity: 50%;
+  width: 6%;
+  top: 296px;
+  right: 9%;
+  transform: rotateY(180deg);
+}
+
 .badeel {
   top: 769px;
   left: -5%;
-  width: 70%;
+  width: 63%;
+  transform: rotateY(180deg);
+}
+
+.bullebad {
+  opacity: 50%;
+  width: 14%;
+  top: 1010px;
+  right: 37%;
   transform: rotateY(180deg);
 }
 
 .nonoeil {
-  top: 1049px;
+  top: 1203px;
   right: -6%;
   width: 50%;
+}
+
+.bullenonoeil {
+  opacity: 50%;
+  width: 14%;
+  top: 1504px;
+  right: 33%;
+  transform: rotateY(180deg);
 }
 .octopus {
   top: 1971px;
@@ -487,10 +640,27 @@ left:43%;
   width: 70%;
 }
 
+.bulleoctopus {
+  opacity: 50%;
+  width: 14%;
+  top: 2075px;
+  right: -3%;
+  transform: rotateY(180deg);
+}
+
+
 .poulpe {
   top: 2633px;
   left: 5%;
   width: 60%;
+}
+
+.bullepoulpe {
+  opacity: 50%;
+  width: 14%;
+  top: 3003px;
+  left: 25%;
+  transform: rotateZ(180deg);
 }
 
 .greg {
@@ -499,10 +669,25 @@ left:43%;
   width: 30%;
 }
 
+.bullegreg {
+  opacity: 50%;
+  width: 10%;
+  top: 2807px;
+  right: 13%;
+  transform: rotateY(180deg);
+}
+
 .metroid {
-  top: 0;
-  width: 85%;
-  right: -20%;
+  top: -56px;
+  right: -17%;
+  width: 71%;
+}
+
+.bullemetroid {
+  opacity: 50%;
+  width: 14%;
+  top: 40px;
+  right: 27%;
 }
 
 .rocherstremon{
@@ -519,9 +704,31 @@ left:43%;
   top: -91px;
 }
 
+.bullestremon {
+    opacity: 50%;
+    width: 9%;
+    left: 13%;
+    top: 205px;
+  }
+
+  .bullestremon2 {
+    opacity: 50%;
+    width: 9%;
+    left: 0%;
+    top: -11px;
+  }
+
 .seadramon{
     width: 72%;
     top: 1092px;
+}
+
+.bullemon {
+  top: 1233px;
+  opacity: 50%;
+  width: 9%;
+  left: 32%;
+  transform: rotateY(180deg);
 }
 
 .pascool{
@@ -529,10 +736,26 @@ left:43%;
     right: 41%;
 }
 
+.bullepascool {
+  top: 1318px;
+  opacity: 50%;
+  width: 3%;
+  left: 40%;
+}
+
 .kaiju{
-  top: 1854px;
+    top: 1854px;
     width: 110%;
     left: -40%;
+    z-index: 1;
+}
+
+.bullekaiju {
+  opacity: 50%;
+  top: 2031px;
+  width: 13%;
+  left: 37%;
+  z-index: 2;
 }
 
 .pet {
@@ -541,3 +764,151 @@ left:43%;
   right: -3%;
   transform: rotateY(180deg);
 }
+
+.bullepet {
+  opacity: 50%;
+  top: 2744px;
+  width: 15%;
+  right: 14%;
+  transform: rotateZ(180deg);
+}
+
+.cthulhufinal{
+  width: 123%;
+right: -21%;
+top: 20px;
+}
+
+.bullecthulhu1{
+  opacity: 50%;
+  right: 44%;
+  width: 15%;
+  top: 745px;
+}
+
+.bullecthulhu2{
+    opacity: 50%;
+    right: 26%;
+    width: 15%;
+    top: 745px;
+    transform: rotateY(180deg);
+  }
+
+.bullecthulhu3{
+  opacity: 50%;
+  right: 29%;
+  width: 15%;
+  top: 745px;
+  transform: rotateY(180deg);
+}
+
+.bullecthulhu4 {
+  opacity: 50%;
+  right: 36%;
+  width: 15%;
+  top: 745px;
+}
+
+.corail1{
+    width: 12%;
+    transform: rotate(69deg);
+    left: -3%;
+  }
+
+  .corail2 {
+    width: 16%;
+    top: 643px;
+    right: -5%;
+    transform: rotate(-56deg);
+  }
+
+  .corail3 {
+    width: 16%;
+    left: -5%;
+    transform: rotate(132deg);
+  }
+  
+  .corail4 {
+    width: 12%;
+    right: 0%;
+    transform: rotate(-81deg);
+    top: 666px;
+  }
+
+  .corail5 {
+    width: 20%;
+    left: -3%;
+    transform: rotate(85deg);
+    top: 1403px;
+  }
+ 
+  .corail6 {
+    width: 27%;
+    right: -9%;
+    transform: rotate(-90deg);
+    top: 730px;
+  }
+
+  .corail7 {
+    width: 15%;
+    left: -3%;
+    transform: rotate(100deg);
+    top: 1922px;
+  }
+
+  .corail8 {
+    width: 15%;
+    left: -1%;
+    transform: rotate(-294deg);
+    top: 348px;
+  }
+
+  .corail9 {
+    width: 21%;
+    right: -4%;
+    transform: rotate(-64deg);
+    top: 742px;
+  }
+
+  .corail10 {
+    width: 21%;
+    left: -3%;
+    transform: rotate(43deg);
+    top: 1532px;
+  }
+
+  .corail11 {
+    top: 3028px;
+    right: 0%;
+    width: 17%;
+    transform: rotate(-49deg);
+  }
+
+  .corail12 {
+    top: 421px;
+    rotate: -249deg;
+    left: -6%;
+    width: 27%;
+  }
+
+  .corail13 {
+    top: 1492px;
+    right: -5%;
+    rotate: -55deg;
+    width: 22%;
+  }
+
+  .corail14 {
+    top: 2181px;
+    width: 28%;
+    right: -8%;
+    transform: rotate(-85deg);
+  }
+
+  .corail15 {
+    top: 2470px;
+    width: 33%;
+    left: -5%;
+    transform: rotate(85deg);
+  }
+
