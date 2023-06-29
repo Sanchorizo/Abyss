@@ -49,6 +49,7 @@ document.addEventListener("click", function () {
     }
 
     hidden.classList.remove("active");
+    hidden.classList.remove("active2");
 });
 
 function toggleDialogue(dialogue) {
