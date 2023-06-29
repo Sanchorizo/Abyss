@@ -10,6 +10,10 @@ body {
 
 }
 
+a {
+  cursor: none;
+}
+
 .ocean {
   height: 5%;
   width: 100%;
@@ -75,11 +79,29 @@ body {
   font-size: 30px;
 }
 
-.desactive {
+.dialogue2 {
+  width: 100%;
+  position: fixed;
+  height: 200px;
+  background-color: #05001f;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  bottom: 0;
   opacity: 0;
+  z-index: 5;
+  font-size: 30px;
 }
 
+
+
 .active {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.active2 {
   opacity: 1;
   overflow: hidden;
 }

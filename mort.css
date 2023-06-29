@@ -5,12 +5,20 @@
 
 body {
     text-align: center;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 712px;
+    background-image: url("images/profondeur.jpg");
 }
 
 h1 {
     color: red;
+    font-size: 5em;
 }
 
 p {
-    color: white
+    color: white;
+    font-size: 3em;
 }
