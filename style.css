@@ -7,7 +7,11 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
   cursor: url("images/yellowsubmarine.png"), auto;
-  
+
+}
+
+a {
+  cursor: none;
 }
 
 .ocean {
@@ -17,7 +21,7 @@ body {
   top: 293px;
   left: 0;
   background: #015871;
- 
+
 }
 
 .wave {
@@ -75,19 +79,37 @@ body {
   font-size: 30px;
 }
 
-.desactive {
+.dialogue2 {
+  width: 100%;
+  position: fixed;
+  height: 200px;
+  background-color: #05001f;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  bottom: 0;
   opacity: 0;
+  z-index: 5;
+  font-size: 30px;
 }
+
+
 
 .active {
   opacity: 1;
   overflow: hidden;
 }
 
+.active2 {
+  opacity: 1;
+  overflow: hidden;
+}
+
 .locean {
   height: 13039px;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(1,88,113,1) 100%); 
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(1, 88, 113, 1) 100%);
 }
 
 .lamer {
@@ -113,19 +135,20 @@ body {
   position: relative;
   top: 4700px;
 }
-.lamer5{
+
+.lamer5 {
   position: relative;
   top: 8100px;
 }
 
-.cthulhu{
+.cthulhu {
   position: relative;
   top: 12111px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -144,8 +167,9 @@ header {
   width: 30%;
 }
 
-.bancbulle{
-  opacity: 50%; 
+.bancbulle {
+  opacity: 50%;
+
   width: 11%;
   right: 22%;
   top: -88px;
@@ -164,7 +188,7 @@ header {
   right: 35%;
 }
 
-.bullerequin1{
+.bullerequin1 {
   opacity: 50%;
   width: 9%;
   top: 97px;
@@ -197,7 +221,7 @@ header {
   top: 516px;
 }
 
-.bullegoblin1{
+.bullegoblin1 {
   opacity: 50%;
   width: 9%;
   top: 472px;
@@ -248,17 +272,17 @@ header {
 }
 
 
-.eel1{
+.eel1 {
   width: 12%;
   top: 400px;
   left: 35%;
 }
 
-.bulleeel1{
+.bulleeel1 {
   opacity: 50%;
   width: 9%;
-  top:367px;
-  left:35%; 
+  top: 367px;
+  left: 35%;
   transform: rotateY(180deg);
 }
 
@@ -268,13 +292,14 @@ header {
   left: 50%;
 }
 
-.bulleeel2{
+.bulleeel2 {
   opacity: 50%;
   width: 9%;
-  top:417px;
-  left:50%; 
+  top: 417px;
+  left: 50%;
   transform: rotateY(180deg);
 }
+
 .eel3 {
   width: 12%;
   top: 510px;
@@ -282,11 +307,11 @@ header {
   transform: rotateY(180deg);
 }
 
-.bulleeel3{
+.bulleeel3 {
   opacity: 50%;
   width: 9%;
-  top:477px;
-  left:43%; 
+  top: 477px;
+  left: 43%;
 }
 
 .eel4 {
@@ -296,12 +321,12 @@ header {
   transform: rotateY(180deg);
 }
 
-.bulleeel4{
+.bulleeel4 {
   opacity: 50%;
   width: 9%;
-  top:767px;
-  right: 20%; 
-  }
+  top: 767px;
+  right: 20%;
+}
 
 .eel5 {
   width: 12%;
@@ -309,11 +334,11 @@ header {
   right: 5%;
 }
 
-.bulleeel5{
+.bulleeel5 {
   opacity: 50%;
   width: 9%;
-  top:517px;
-  right:9%; 
+  top: 517px;
+  right: 9%;
   transform: rotateY(180deg);
 }
 
@@ -398,7 +423,7 @@ header {
   left: 10%;
   width: 15%;
   transform: rotateY(180deg);
-  
+
 }
 
 .bullejelly2 {
@@ -544,17 +569,17 @@ header {
 }
 
 .bulleampoule {
-    opacity: 50%;
-    width: 13%;
-    top: 1434px;
-    left: 21%;
-  }
+  opacity: 50%;
+  width: 13%;
+  top: 1434px;
+  left: 21%;
+}
 
-  .monstre {
-    top: 1905px;
-    right: 18%;
-    width: 45%;
-  }
+.monstre {
+  top: 1905px;
+  right: 18%;
+  width: 45%;
+}
 
 .bullemonster {
   opacity: 50%;
@@ -578,11 +603,11 @@ header {
 }
 
 .bullefrost {
-    opacity: 50%;
-    width: 8%;
-    top: 103px;
-    left: 17%;
-  }
+  opacity: 50%;
+  width: 8%;
+  top: 103px;
+  left: 17%;
+}
 
 .rochercrab {
   top: 190px;
@@ -634,6 +659,7 @@ header {
   right: 33%;
   transform: rotateY(180deg);
 }
+
 .octopus {
   top: 1971px;
   right: -4%;
@@ -690,14 +716,14 @@ header {
   right: 27%;
 }
 
-.rocherstremon{
-    top: 281px;
-    rotate: -41deg;
-    left: -19%;
-    width: 54%;
+.rocherstremon {
+  top: 281px;
+  rotate: -41deg;
+  left: -19%;
+  width: 54%;
 }
 
-.stremon{    
+.stremon {
   transform: rotateY(180deg);
   width: 64%;
   left: -27%;
@@ -705,22 +731,22 @@ header {
 }
 
 .bullestremon {
-    opacity: 50%;
-    width: 9%;
-    left: 13%;
-    top: 205px;
-  }
+  opacity: 50%;
+  width: 9%;
+  left: 13%;
+  top: 205px;
+}
 
-  .bullestremon2 {
-    opacity: 50%;
-    width: 9%;
-    left: 0%;
-    top: -11px;
-  }
+.bullestremon2 {
+  opacity: 50%;
+  width: 9%;
+  left: 0%;
+  top: -11px;
+}
 
-.seadramon{
-    width: 72%;
-    top: 1092px;
+.seadramon {
+  width: 72%;
+  top: 1092px;
 }
 
 .bullemon {
@@ -731,9 +757,9 @@ header {
   transform: rotateY(180deg);
 }
 
-.pascool{
-    top: 1299px;
-    right: 41%;
+.pascool {
+  top: 1299px;
+  right: 41%;
 }
 
 .bullepascool {
@@ -743,11 +769,11 @@ header {
   left: 40%;
 }
 
-.kaiju{
-    top: 1854px;
-    width: 110%;
-    left: -40%;
-    z-index: 1;
+.kaiju {
+  top: 1854px;
+  width: 110%;
+  left: -40%;
+  z-index: 1;
 }
 
 .bullekaiju {
@@ -773,28 +799,28 @@ header {
   transform: rotateZ(180deg);
 }
 
-.cthulhufinal{
+.cthulhufinal {
   width: 123%;
-right: -21%;
-top: 20px;
+  right: -21%;
+  top: 20px;
 }
 
-.bullecthulhu1{
+.bullecthulhu1 {
   opacity: 50%;
   right: 44%;
   width: 15%;
   top: 745px;
 }
 
-.bullecthulhu2{
-    opacity: 50%;
-    right: 26%;
-    width: 15%;
-    top: 745px;
-    transform: rotateY(180deg);
-  }
+.bullecthulhu2 {
+  opacity: 50%;
+  right: 26%;
+  width: 15%;
+  top: 745px;
+  transform: rotateY(180deg);
+}
 
-.bullecthulhu3{
+.bullecthulhu3 {
   opacity: 50%;
   right: 29%;
   width: 15%;
@@ -809,106 +835,105 @@ top: 20px;
   top: 745px;
 }
 
-.corail1{
-    width: 12%;
-    transform: rotate(69deg);
-    left: -3%;
-  }
+.corail1 {
+  width: 12%;
+  transform: rotate(69deg);
+  left: -3%;
+}
 
-  .corail2 {
-    width: 16%;
-    top: 643px;
-    right: -5%;
-    transform: rotate(-56deg);
-  }
+.corail2 {
+  width: 16%;
+  top: 643px;
+  right: -5%;
+  transform: rotate(-56deg);
+}
 
-  .corail3 {
-    width: 16%;
-    left: -5%;
-    transform: rotate(132deg);
-  }
-  
-  .corail4 {
-    width: 12%;
-    right: 0%;
-    transform: rotate(-81deg);
-    top: 666px;
-  }
+.corail3 {
+  width: 16%;
+  left: -5%;
+  transform: rotate(132deg);
+}
 
-  .corail5 {
-    width: 20%;
-    left: -3%;
-    transform: rotate(85deg);
-    top: 1403px;
-  }
- 
-  .corail6 {
-    width: 27%;
-    right: -9%;
-    transform: rotate(-90deg);
-    top: 730px;
-  }
+.corail4 {
+  width: 12%;
+  right: 0%;
+  transform: rotate(-81deg);
+  top: 666px;
+}
 
-  .corail7 {
-    width: 15%;
-    left: -3%;
-    transform: rotate(100deg);
-    top: 1922px;
-  }
+.corail5 {
+  width: 20%;
+  left: -3%;
+  transform: rotate(85deg);
+  top: 1403px;
+}
 
-  .corail8 {
-    width: 15%;
-    left: -1%;
-    transform: rotate(-294deg);
-    top: 348px;
-  }
+.corail6 {
+  width: 27%;
+  right: -9%;
+  transform: rotate(-90deg);
+  top: 730px;
+}
 
-  .corail9 {
-    width: 21%;
-    right: -4%;
-    transform: rotate(-64deg);
-    top: 742px;
-  }
+.corail7 {
+  width: 15%;
+  left: -3%;
+  transform: rotate(100deg);
+  top: 1922px;
+}
 
-  .corail10 {
-    width: 21%;
-    left: -3%;
-    transform: rotate(43deg);
-    top: 1532px;
-  }
+.corail8 {
+  width: 15%;
+  left: -1%;
+  transform: rotate(-294deg);
+  top: 348px;
+}
 
-  .corail11 {
-    top: 3028px;
-    right: 0%;
-    width: 17%;
-    transform: rotate(-49deg);
-  }
+.corail9 {
+  width: 21%;
+  right: -4%;
+  transform: rotate(-64deg);
+  top: 742px;
+}
 
-  .corail12 {
-    top: 421px;
-    rotate: -249deg;
-    left: -6%;
-    width: 27%;
-  }
+.corail10 {
+  width: 21%;
+  left: -3%;
+  transform: rotate(43deg);
+  top: 1532px;
+}
 
-  .corail13 {
-    top: 1492px;
-    right: -5%;
-    rotate: -55deg;
-    width: 22%;
-  }
+.corail11 {
+  top: 3028px;
+  right: 0%;
+  width: 17%;
+  transform: rotate(-49deg);
+}
 
-  .corail14 {
-    top: 2181px;
-    width: 28%;
-    right: -8%;
-    transform: rotate(-85deg);
-  }
+.corail12 {
+  top: 421px;
+  rotate: -249deg;
+  left: -6%;
+  width: 27%;
+}
 
-  .corail15 {
-    top: 2470px;
-    width: 33%;
-    left: -5%;
-    transform: rotate(85deg);
-  }
+.corail13 {
+  top: 1492px;
+  right: -5%;
+  rotate: -55deg;
+  width: 22%;
+}
 
+.corail14 {
+  top: 2181px;
+  width: 28%;
+  right: -8%;
+  transform: rotate(-85deg);
+}
+
+.corail15 {
+  top: 2470px;
+  width: 33%;
+  left: -5%;
+  transform: rotate(85deg);
+}
