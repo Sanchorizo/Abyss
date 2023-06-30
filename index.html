@@ -15,6 +15,7 @@
             <div class="wave"></div>
         </div>
     </header>
+
     <section class="locean">
         <div class="lamer">
             <img src="images/bancdepoisson.png" alt="" class="banc perso">
@@ -116,6 +117,7 @@
         </div>
 
         <div class="lamer3">
+
             <img src="images/groscorail (2).png" alt="" class="corail6">
             <div>
                 <a href="">
@@ -213,19 +215,43 @@
         </div>
 
         <div class="cthulhu">
-            <div>
+
+            <div class="fadein">
                 <a href="">
                     <img src="images/cthulhulevrai.png" alt="" class="cthulhufinal">
                 </a>
             </div>
+
             <img src="images/bubulles2.gif" alt="" class="bullecthulhu1">
             <img src="images/bubulles2.gif" alt="" class="bullecthulhu2">
             <img src="images/bubulles2.gif" alt="" class="bullecthulhu3">
             <img src="images/bubulles2.gif" alt="" class="bullecthulhu4">
         </div>
+
     </section>
 </body>
+<script src="jquery-3.7.0.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            $(".fadein").each(function () {
+                var divPosition = $(this).offset().top;
+                var divHeight = $(this).height();
+                var windowHeight = $(window).height();
+                var scroll = $(window).scrollTop();
+                var isVisible = divPosition < scroll + windowHeight && divPosition + divHeight > scroll;
+
+                if (isVisible) {
+                    $(this).addClass("visible");
+                } else {
+                    $(this).removeClass("visible");
+                }
+            });
+        });
+    });
+</script>
 <script src="anim.js"></script>
 <script src="dialogue.js"></script>
+
 
 </html>

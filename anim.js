@@ -73,3 +73,6 @@ function toggleDialogue2(dialogue) {
     dialogue.classList.toggle("active2");
     hidden.classList.toggle("active2");
 }
+
+  
+  
