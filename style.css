@@ -228,6 +228,7 @@ header {
   width: 26%;
   right: 6%;
   top: 650px;
+  z-index: 5;
 }
 
 .bullegoblin2 {
