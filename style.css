@@ -209,8 +209,6 @@ header {
   transform: rotateY(180deg);
 }
 
-
-
 .goblin1 {
   width: 26%;
   left: 7%;
@@ -816,7 +814,7 @@ header {
   opacity: 50%;
   right: 26%;
   width: 15%;
- 
+
   transform: rotateY(180deg);
 }
 
@@ -835,7 +833,7 @@ header {
 
 }
 
-.fadein{
+.fadein {
   opacity: 0;
   transition: all 3s;
 }
@@ -948,8 +946,8 @@ header {
 }
 
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
-
