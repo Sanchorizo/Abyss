@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.js"></script>
     <title>Document</title>
 </head>
 
@@ -230,26 +231,6 @@
 
     </section>
 </body>
-<script src="jquery-3.7.0.js"></script>
-<script>
-    $(document).ready(function () {
-        $(window).scroll(function () {
-            $(".fadein").each(function () {
-                var divPosition = $(this).offset().top;
-                var divHeight = $(this).height();
-                var windowHeight = $(window).height();
-                var scroll = $(window).scrollTop();
-                var isVisible = divPosition < scroll + windowHeight && divPosition + divHeight > scroll;
-
-                if (isVisible) {
-                    $(this).addClass("visible");
-                } else {
-                    $(this).removeClass("visible");
-                }
-            });
-        });
-    });
-</script>
 <script src="anim.js"></script>
 <script src="dialogue.js"></script>
 
