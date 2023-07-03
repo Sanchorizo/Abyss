@@ -2,7 +2,6 @@ $(document).ready(function () {
     var audio1 = new Audio('sound/underwater.mp3');
     audio1.loop = true;
     audio1.play();
-    alert("Played " + audio1);
 
     var audio2 = new Audio('sound/abyss.mp3');
     audio2.loop = true;
