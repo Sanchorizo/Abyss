@@ -49,6 +49,7 @@ document.addEventListener("click", function () {
     }
 
     hidden.classList.remove("active");
+    hidden.classList.remove("active2");
 });
 
 function toggleDialogue(dialogue) {
@@ -71,4 +72,24 @@ function toggleDialogue2(dialogue) {
 
     dialogue.classList.toggle("active2");
     hidden.classList.toggle("active2");
-}
+};
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        $(".fadein").each(function () {
+            var divPosition = $(this).offset().top;
+            var divHeight = $(this).height();
+            var windowHeight = $(window).height();
+            var scroll = $(window).scrollTop();
+            var isVisible = divPosition < scroll + windowHeight && divPosition + divHeight > scroll;
+
+            if (isVisible) {
+                $(this).addClass("visible");
+            } else {
+                $(this).removeClass("visible");
+            }
+        });
+    });
+});
+
+
