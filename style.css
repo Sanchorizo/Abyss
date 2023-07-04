@@ -3,12 +3,7 @@ body {
   height: 100%;
 }
 
-body {
-  background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
-  overflow-x: hidden;
-  cursor: url("images/yellowsubmarine.png"), auto;
 
-}
 
 a {
   cursor: none;
@@ -78,6 +73,7 @@ a {
   z-index: 1000;
   font-size: 30px;
   padding: 0 40px;
+  transition: all 1s;
 }
 
 .dialogue2 {
@@ -94,20 +90,32 @@ a {
   z-index: 1000;
   font-size: 30px;
   padding: 0 40px;
+  transition: all 1s;
 }
 
-button {}
+button {
+  background-color: aquamarine;
+position: absolute;
+left: 60%;
+bottom: 55px;
+padding: 10px;
+border-radius: 10px;
+border: 2px solid #881616;
+z-index: 10;
+}
 
 
 
 .active {
   opacity: 1;
   overflow: hidden;
+  transition: all 1s;
 }
 
 .active2 {
   opacity: 1;
   overflow: hidden;
+  transition: all 1s;
 }
 
 .locean {
@@ -276,6 +284,7 @@ header {
   width: 12%;
   top: 400px;
   left: 35%;
+  z-index: 5;
 }
 
 .bulleeel1 {
@@ -290,6 +299,7 @@ header {
   width: 12%;
   top: 450px;
   left: 50%;
+  z-index: 5;
 }
 
 .bulleeel2 {
@@ -305,6 +315,7 @@ header {
   top: 510px;
   left: 40%;
   transform: rotateY(180deg);
+  z-index: 5;
 }
 
 .bulleeel3 {
@@ -319,6 +330,7 @@ header {
   top: 800px;
   right: 20%;
   transform: rotateY(180deg);
+  z-index: 5;
 }
 
 .bulleeel4 {
@@ -332,6 +344,7 @@ header {
   width: 12%;
   top: 550px;
   right: 5%;
+  z-index: 5;
 }
 
 .bulleeel5 {
@@ -950,8 +963,13 @@ header {
 }
 
 
-html,
-body {
+body{
   margin: 0;
   padding: 0;
+  background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
+  overflow-x: hidden;
+  cursor: url("images/yellowsubmarine.png"), auto;
 }
+ a{cursor: url("images/yellowsubmarine.png"), auto;}
+ p{cursor: url("images/yellowsubmarine.png"), auto;}
+

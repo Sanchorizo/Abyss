@@ -40,7 +40,8 @@ parleur2.addEventListener("click", function (event) {
 });
 
 // Gestion des clics sur la page (désactivation des dialogues)
-document.addEventListener("click", function (event) {
+document.addEventListener("click", function (event) { 
+
     if (!event.target.classList.contains("dialogue") && !event.target.classList.contains("parleur") || !event.target.classList.contains("parleur2")) {
         for (var i = 0; i < dialogues.length; i++) {
             dialogues[i].classList.remove("active");
