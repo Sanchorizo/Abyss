@@ -5,6 +5,7 @@ var dialogues = document.getElementsByClassName("dialogue");
 var dialogues2 = document.getElementsByClassName("dialogue2");
 var hidden = document.getElementsByClassName("hidden")[0];
 var aParleParleur = false; // Variable pour vérifier si le parleur a été cliqué
+var dialogue2Active = false; // Variable pour garder une trace de l'état du dialogue2
 
 // Gestion des clics sur les parleurs
 for (var i = 0; i < parleurs.length; i++) {
@@ -34,22 +35,24 @@ parleur2.addEventListener("click", function (event) {
 
     if (aParleParleur) {
         var dialogue = this.nextElementSibling;
-        toggleDialogue2(dialogue);
+        toggleDialogue(dialogue);
     }
 });
 
 // Gestion des clics sur la page (désactivation des dialogues)
-document.addEventListener("click", function () {
-    for (var i = 0; i < dialogues.length; i++) {
-        dialogues[i].classList.remove("active");
-    }
+document.addEventListener("click", function (event) {
+    if (!event.target.classList.contains("dialogue") && !event.target.classList.contains("parleur") || !event.target.classList.contains("parleur2")) {
+        for (var i = 0; i < dialogues.length; i++) {
+            dialogues[i].classList.remove("active");
+        }
 
-    for (var i = 0; i < dialogues2.length; i++) {
-        dialogues2[i].classList.remove("active2");
-    }
+        for (var i = 0; i < dialogues2.length; i++) {
+            dialogues2[i].classList.remove("active2");
+        }
 
-    hidden.classList.remove("active");
-    hidden.classList.remove("active2");
+        hidden.classList.remove("active");
+        hidden.classList.remove("active2");
+    }
 });
 
 function toggleDialogue(dialogue) {
@@ -59,8 +62,13 @@ function toggleDialogue(dialogue) {
         }
     }
 
-    dialogue.classList.toggle("active");
-    hidden.classList.toggle("active");
+    if (dialogue.classList.contains("active")) {
+        dialogue.classList.remove("active");
+    } else {
+        dialogue.classList.add("active");
+    }
+
+    hidden.classList.add("active");
 }
 
 function toggleDialogue2(dialogue) {
@@ -70,9 +78,31 @@ function toggleDialogue2(dialogue) {
         }
     }
 
-    dialogue.classList.toggle("active2");
-    hidden.classList.toggle("active2");
-};
+    if (dialogue.classList.contains("active2")) {
+        dialogue.classList.remove("active2");
+    } else {
+        dialogue.classList.add("active2");
+    }
+
+    hidden.classList.add("active2");
+}
+document.addEventListener('click', function (event) {
+    // Vérifiez si l'élément cliqué a la classe "active"
+    if (event.target.classList.contains('active')) {
+        // Sélectionnez tous les éléments de la classe "dialogue" et supprimez la classe "active"
+        var dialogues = document.querySelectorAll('.dialogue');
+        dialogues.forEach(function (dialogue) {
+            dialogue.classList.remove('active');
+        });
+
+        // Sélectionnez tous les éléments de la classe "hidden" et supprimez la classe "active"
+        var hiddenElements = document.querySelectorAll('.hidden');
+        hiddenElements.forEach(function (hidden) {
+            hidden.classList.remove('active');
+        });
+    }
+});
+
 
 $(document).ready(function () {
     $(window).scroll(function () {
