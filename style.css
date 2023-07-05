@@ -72,7 +72,6 @@ a {
   opacity: 0;
   z-index: 1000;
   font-size: 30px;
-  padding: 0 40px;
   transition: all 1s;
   pointer-events: none;
 }
@@ -90,21 +89,10 @@ a {
   opacity: 0;
   z-index: 1000;
   font-size: 30px;
-  padding: 0 40px;
   transition: all 1s;
   pointer-events: none;
 }
 
-button {
-  background-color: aquamarine;
-  position: absolute;
-  left: 60%;
-  bottom: 55px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid #881616;
-  z-index: 10;
-}
 
 
 
@@ -971,6 +959,9 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
   cursor: url("images/yellowsubmarine.png"), auto;
+  max-width: 1520px;
+  min-width: 1520px;
+  margin: auto;
 }
 
 a {
