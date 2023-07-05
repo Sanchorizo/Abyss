@@ -62,8 +62,7 @@ a {
 .dialogue {
   width: 100%;
   position: fixed;
-  height: 200px;
-  background-color: #05001f;
+  height: 220px;
   color: white;
   justify-content: center;
   display: flex;
@@ -71,16 +70,18 @@ a {
   bottom: 0;
   opacity: 0;
   z-index: 1000;
-  font-size: 30px;
+  font-size: 24px;
   transition: all 1s;
   pointer-events: none;
+  max-width: 1610px;
+  background-image: url("images/barre_dialogue.png");
 }
+
 
 .dialogue2 {
   width: 100%;
   position: fixed;
-  height: 200px;
-  background-color: #05001f;
+  height: 220px;
   color: white;
   justify-content: center;
   display: flex;
@@ -91,9 +92,12 @@ a {
   font-size: 30px;
   transition: all 1s;
   pointer-events: none;
+  max-width: 1610px;
+  background-image: url("images/barre_dialogue.png");
 }
 
 
+p{padding-left: 24px;}
 
 
 .active {
@@ -959,9 +963,24 @@ body {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #B7E8EB 100%);
   overflow-x: hidden;
   cursor: url("images/yellowsubmarine.png"), auto;
-  max-width: 1520px;
-  min-width: 1520px;
+  max-width: 1540px;
+  min-width: 1540px;
   margin: auto;
+}
+
+.objet {
+  transform: rotate(0deg);
+  transition: all 2s;
+  left: 25%;
+  top: 1066px;
+  width: 25%;
+  z-index: -1;
+ }
+
+.animation {
+  left: 670px;
+  transform: rotate(0deg);
+  z-index: 6;
 }
 
 a {
@@ -970,4 +989,17 @@ a {
 
 p {
   cursor: url("images/yellowsubmarine.png"), auto;
+}
+
+.apparait {
+  pointer-events: all !important;
+}
+
+.apparait img:hover {
+  filter: brightness(1.4);
+  transform: scale(1.1);
+}
+
+.lien {
+  pointer-events: none;
 }

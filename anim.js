@@ -6,6 +6,10 @@ var dialogues2 = document.getElementsByClassName("dialogue2");
 var hidden = document.getElementsByClassName("hidden")[0];
 var aParleParleur = false; // Variable pour vérifier si le parleur a été cliqué
 var dialogue2Active = false; // Variable pour garder une trace de l'état du dialogue2
+const sortie = document.querySelector(".lien");
+const sidra = document.querySelector(".seadramon");
+const objet = document.querySelector(".objet");
+
 
 // Gestion des clics sur les parleurs
 for (var i = 0; i < parleurs.length; i++) {
@@ -36,9 +40,18 @@ parleur2.addEventListener("click", function (event) {
     if (aParleParleur) {
         var dialogue = this.nextElementSibling;
         toggleDialogue(dialogue);
-    }
-});
+        sortie.classList.remove("lien");
+        sortie.classList.add("apparait");
+        sidra.addEventListener("click", function () {
 
+            var dialogue3 = document.querySelector("dialogue2");
+            hidden.classList.remove("active2");
+            objet.classList.add("animation");
+            toggleDialogue3(dialogue3);
+    })
+}
+});
+ 
 // Gestion des clics sur la page (désactivation des dialogues)
 document.addEventListener("click", function (event) { 
 
@@ -84,6 +97,20 @@ function toggleDialogue2(dialogue) {
     } else {
         dialogue.classList.add("active2");
     }
+    
+    hidden.classList.add("active2");
+}
+
+function toggleDialogue3(dialogue) {
+    for (var i = 0; i < dialogues2.length; i++) {
+        if (dialogues2[i] !== dialogue) {
+            dialogues2[i].classList.remove("active2");
+        }
+    }
+
+    if (dialogue.classList.contains("active2")) {
+        dialogue.classList.remove("active2");
+    }
 
     hidden.classList.add("active2");
 }
@@ -122,5 +149,6 @@ $(document).ready(function () {
         });
     });
 });
+
 
 

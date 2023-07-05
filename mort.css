@@ -38,11 +38,27 @@ body {
     margin: 0 5%;
   }
 
-.annonce {
+.annonce, .bouton {
     animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+  }
+  
+  .bouton {
+    background-image: url(images/bouton.gif);
+    padding: 14px;
+    position: absolute;
+    bottom: 86px;
+    left: 45%;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+
+  .bouton p {
+    z-index: 1000;
+    font-size: 2em;
+    margin: auto;
   }
