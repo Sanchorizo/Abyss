@@ -74,6 +74,7 @@ a {
   font-size: 30px;
   padding: 0 40px;
   transition: all 1s;
+  pointer-events: none;
 }
 
 .dialogue2 {
@@ -91,6 +92,7 @@ a {
   font-size: 30px;
   padding: 0 40px;
   transition: all 1s;
+  pointer-events: none;
 }
 
 button {
