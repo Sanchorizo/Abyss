@@ -57,3 +57,9 @@ $(document).ready(function () {
         };
     };
 });
+
+
+    const son = new Audio('../sound/sonar.mp3');
+
+    son.loop=true;
+    son.play();
